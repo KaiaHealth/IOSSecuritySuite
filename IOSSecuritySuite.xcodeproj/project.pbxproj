@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		113B62992BD2825F003F7197 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 113B62972BD2825F003F7197 /* PrivacyInfo.xcprivacy */; };
 		703F74E222704E0F000635D8 /* ReverseEngineeringToolsChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703F74E122704E0F000635D8 /* ReverseEngineeringToolsChecker.swift */; };
 		706B0E2A226F445D0059AEA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706B0E29226F445D0059AEA9 /* AppDelegate.swift */; };
 		706B0E2F226F445D0059AEA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 706B0E2D226F445D0059AEA9 /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		113B62972BD2825F003F7197 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		703F74E122704E0F000635D8 /* ReverseEngineeringToolsChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseEngineeringToolsChecker.swift; sourceTree = "<group>"; };
 		706B0E27226F445D0059AEA9 /* FrameworkClientApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrameworkClientApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		706B0E29226F445D0059AEA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		113B62982BD2825F003F7197 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				113B62972BD2825F003F7197 /* PrivacyInfo.xcprivacy */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		706B0E28226F445D0059AEA9 /* FrameworkClientApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +152,7 @@
 				A90FD60124528FD1007212BF /* RuntimeHookChecker.swift */,
 				70B8E16B257E528D00917097 /* ProxyChecker.swift */,
 				E2814AD62A4E388100AC9E54 /* FileChecker.swift */,
+				113B62982BD2825F003F7197 /* Resources */,
 			);
 			indentWidth = 2;
 			path = IOSSecuritySuite;
@@ -266,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				113B62992BD2825F003F7197 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
